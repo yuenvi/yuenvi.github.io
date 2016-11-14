@@ -1,0 +1,11 @@
+@-webkit-keyframes toBig{
+	0%{ -webkit-transform:scale(0.1); background:rgba(0,0,0,0); }
+	100%{ -webkit-transform:scale(1); background:rgba(0,0,0,0.8); }
+}
+.toBig{ -webkit-animation: toBig 0.5s; background:rgba(0,0,0,0.8);}
+
+@keyframes formRight{
+    0%{transform:translateX(100px); opacity: 0;}
+    100%{transform:translateX(0); opacity: 1;}
+}
+.formRight{ animation: formRight 0.7s;}
