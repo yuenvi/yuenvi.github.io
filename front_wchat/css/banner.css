@@ -1,0 +1,135 @@
+article { position:rel-ative; }
+/*.page { position:absolute; left:0;top:0;width:100%;height:100%; overflow:auto; background-color:#fff; z-index:1; display:none; }*/
+
+
+.header { height:1.74rem; background:#1d1c21; color:#fff; font-size:0.6rem; line-height:1.74rem; padding-left:0.44rem; }
+.header a { color:#fff; }
+.header h1 { font-size:0.68rem; width:10rem;  height:1.74rem; line-height:1.74rem; display:inline-block; text-align:center; }
+.header .glyphicon-chevron-left { font-size:0.7rem; top:3px; font-weight:normal; }
+
+/*应用广告区*/
+.app_info { text-align:center; overflow:hidden; }
+.app_info .add_list { width:300%; height:19.06rem; overflow:hidden;  }
+.add_list li { width:33.33%; height:19.06rem; float:left; }
+.add_list li img { width:100% ; height:19.06rem; }
+.list_btn { text-align:center; margin:0; height:0.4rem; }
+.list_btn span{ display:inline-block; width: 0.4rem; height: 0.4rem; margin-right: 0.2rem;border-radius:0.2rem; background:#ededed ; }
+.list_btn .active { background:#d4d4d4; }
+
+#autodyne { width:10rem; height:1.8rem; background:#10bad4; color:#f7fbfe; text-align:center; line-height:1.8rem; border:none; border-radius:0.12rem; margin:1rem auto;}
+
+/*我的照片*/
+#myphoto { padding:0 0.3rem; position:relative; }
+#myphoto .photo_time { height:1.38rem; font-size:0.58rem; color:#474747; text-indent:0.1rem; display:flex; display:-webkit-box; line-height:1.7rem; }
+.photo_time span:nth-of-type(1){ flex:1;  }
+.photo_time span:nth-of-type(2){ text-align:right; flex:1; }
+.photo_time span:nth-of-type(2) a { color:#474747; }
+.pic_list { width:14.4rem; height:15.6rem; overflow:hidden; }
+.pic_list li { width:4.6rem; height:4.6rem; float:left; overflow:hidden; margin:0.3rem 0.1rem; }
+.pic_list li img { width:4.6rem; height:4.6rem; }
+
+.app_download { width:100%; height:1.96rem;  background:#333333; color:#FFF; position:absolute; left:0; bottom:0; font-size:0.6rem; }
+.app_download p { width:5.68rem; height:1.96rem; line-height:1.96rem; position:absolute; left:0.56rem; }
+.app_download  .glyphicon-circle-arrow-down { font-size:0.92rem; color:#fff; top:7px; margin-right:0.5rem; }
+.app_download .toDown { width:4rem; height:1.5rem; position:absolute; right:1.56rem; bottom:0.2rem; background:#10bad4; color:#fffef6; border-radius:0.2rem; text-align:center; line-height:1.5rem; }
+.app_download .a_close { height:0.6rem; position:absolute; right:0.5rem; top:0.8rem; color:#fff;  z-index:100; }
+.btn_collect { width:2.14rem; height:2.14rem; position:absolute; right:0.6rem; bottom:12%; background:#10bad4; border-radius:1.2rem;  }
+.btn_collect .glyphicon-star-empty { color:#fff; font-size:1.2rem; left:0.5rem; top:0.5rem; }
+.btn_collect .num_c { width:0.72rem; height:0.72rem; line-height:0.72rem; position:absolute; right:-0.1rem; top:-0.1rem;background:#f92323; font-size:0.36rem; color:#ffe7f7; text-align:center; border-radius:0.36rem; }
+
+/*照片详情*/
+.view_wrap { position:relative; }
+.view_wrap .big_pic { width:100%; height:15.3rem; position:relative; }
+.view_wrap .big_pic img:nth-of-type(1) { width:100%; height:15.3rem; }
+.big_pic .watermark { width:5.94rem; height:4.02rem; position:absolute; left:50%; top:50%; margin-left:-74px; margin-top:-50.5px; }
+
+.view_c { padding:0 0.4rem; font-size:0.6rem; }
+.view_c .data_photo { height:1.68rem; line-height:1.68rem; display:flex; /*display:-webkit-box;*/ color:#444444; }
+.data_photo .p_address { flex-grow:1; -webkit-box-flex:1; }
+.data_photo .p_time { flex-grow:1; -webkit-box-flex:1; text-align:right; }
+.data_photo .glyphicon-map-marker { color:#c7c7c7; font-size:0.8rem; top:5px; }
+
+.panel_info { width:100%; height:3.6rem; background:#f8f8f8; position:relative;}
+.panel_info .user_pic { width:6.68rem; float:left; text-align:center; margin-top:0.4rem; }
+.user_pic img { width:2.8rem; height:2.8rem; border-radius:1.4rem; float:left; }
+.user_pic .user_name { width:3.48rem; height:2.8rem; float:right; margin-top:0.6rem; }
+.user_pic p { line-height:0.88rem;  }
+.user_pic p:nth-of-type(1){ color:#474747;  }
+.user_pic p:nth-of-type(2){ color:#c9c9c9;  }
+
+.panel_info>p { height:2.04rem; float:right; margin-right:0.3rem; line-height:2.6rem; }
+.panel_info .btn_collect { position:absolute; right:0.4rem; bottom:-0.6rem; }
+
+.view_wrap .view_ft { width:100%; height:2rem;  background:#f8f8f8; border-top:1px solid #e6e6e6; box-sizing:border-box; position:absolute; bottom:0; left:0; padding:0.2rem 0.4rem }
+.view_ft a { height:1.54rem; line-height:1.54rem; border-radius:0.2rem; text-align:center; }
+.view_ft a:nth-of-type(1) { float:left; width:8.6rem; height:1.54rem; background:#10b9d0; color:#fbfffa; border:none; }
+.view_ft a:nth-of-type(2) { float:right; width:5.4rem; height:1.54rem; line-height:; border:1px solid #10b9d0; background:#f8f8f8; color:#10b9d0; box-sizing:border-box; }
+
+/*寻找摄影师*/
+	/*public*/
+.recommend_cmr .list_btn { height:1rem; }
+.list_btn { text-align:center; margin:0; height:0.4rem; }
+.list_btn span{ display:inline-block; width: 0.4rem; height: 0.4rem; margin-right: 0.2rem;border-radius:0.2rem; background:#ededed ; }
+.list_btn .active { background:#d4d4d4; }
+
+.recommend_cmr .cmr_class { height:2.04rem;line-height:2.04rem; color:#b3b3b3; font-size:0.52rem; }
+.cmr_class>span { float:left; }
+.cmr_class>a { float:right; color:#0ebad2; }
+
+.cmr_name { color:#474747; font-size:0.52rem; }
+.cmr_address { color:#c9c9c9; font-size:0.4rem; text-align:center; }
+.cmr_address .glyphicon-map-marker { top:2px; }
+
+/*end public*/
+
+.cameraman_list { padding:0 0.4rem; }
+
+/*推荐摄影师*/
+.recommend_cmr_list { width:300%; height:3.54rem; overflow:hidden; }
+.recommend_cmr_list li { width:3.6rem; height:3.6rem; float:left; text-align:center; }
+.recommend_cmr_list li>a>img { width:1.7rem; height:1.7rem; }
+
+/*用户位置信息*/
+.user_address { height:1.6rem; border:2px solid #d4d4d4; box-sizing:border-box; border-radius:20px; text-align:center; line-height:1.6rem; color:#b3b3b5; margin:0.6rem 0; font-size:0.52rem; }
+.user_address .glyphicon-map-marker { color:#0fb8d5; margin-right:0.1rem; }
+.user_address .place { color:#474747; }
+.user_address .glyphicon-refresh { color:#c9c9c9; top:2px; text-indent:6px; }
+
+/*附近摄影师*/
+.neighbor_cmr .cmr_class { height:1.2rem; line-height:1.2rem; color:#b4b4b4; font-size:0.52rem; }
+
+.neighbor_cmr_list { height:13.64rem; overflow:auto; }
+.neighbor_cmr_list>li{ width:33.33%; height:5.2rem; float:left; text-align:center; }
+.neighbor_cmr_list li>a>img { width:2.8rem; height:2.8rem; }
+
+
+/*全部摄影师*/
+.cmr_panel { padding:0.8rem 0.4rem 0; }
+
+.cmr_menu { height:1.2rem; }
+.cmr_menu>a.btn { width:6.8rem; height:1.2rem; border:1px solid #d4d4d4; box-sizing:border-box; padding:0; background:#fff; }
+/*.cmr_menu>div:nth-of-type(1) { margin-right:0.4rem; }
+.cmr_menu>div>button { width:6.8rem; height:1.2rem; border:1px solid #d4d4d4; box-sizing:border-box; padding:0; background:#fff; }
+.cmr_menu .btn-group.open .dropdown-toggle { box-shadow:none!important; }
+.cmr_menu .glyphicon-chevron-down { color:#bababa; top:0.1rem; }*/
+
+.all_cmr_list { height:22.12rem; overflow:auto; }
+.all_cmr_list li { height:4rem; border-bottom:1px solid #d4d4d4; }
+.all_cmr_list .cmr_info { width:10rem; float:left; margin-top:0.6rem; }
+.cmr_info>img { float:left; width:2.8rem; height:2.8rem; }
+.cmr_info>div { float:right; margin-right:1.6rem; margin-top:0.4rem; }
+.cmr_info .cmr_name { font-size:0.76rem; }
+.cmr_info .cmr_grade { display:inline-block; }
+.cmr_grade .glyphicon-star { color:#e1e1e1; }
+.cmr_grade span.active { color:#f1e43e; }
+
+.cmr_info .score { color:#11b8cb; }
+
+.all_cmr_list  .cmr_address { width:4rem;line-height:4rem; float:right; text-align:right; font-size:0.7rem; }
+
+
+df
+
+
+
+

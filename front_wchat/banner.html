@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, user-scalable=no"/>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/banner.css">
+<title></title>
+<script>
+	(function(){
+		var html = document.documentElement;
+		var hWidth = html.getBoundingClientRect().width;
+		html.style.fontSize = hWidth/15 + 'px';
+	})()
+</script>
+</head>
+<body>
+<article style="display:none;">
+	<header  class="header">
+		<a href="javascript:;"><span class="glyphicon glyphicon-chevron-left"></span>返回</a>
+		<h1>我的照片</h1>
+	</header>
+	<!--推荐页-->
+	<section class="app_info page hide">
+		<ul class="add_list" id="add_list">
+			<li><img src="img/add_list/1.jpg"></li>
+			<li><img src="img/add_list/2.jpg"></li>
+			<li><img src="img/add_list/3.jpg"></li>
+		</ul>
+		<p id="add_btn" class="list_btn">
+			<span class="active"></span>
+			<span></span>
+			<span></span>
+		</p>
+		<button id="autodyne">立即自拍</button>
+	</section>
+
+	<!--我的照片-->
+	<section class="page hide" id="myphoto">
+		<p class="photo_time">
+			<span>2016年11月1日</span>
+			<span>共<a href="javascript:;">112</a>张</span>
+		</p>
+		<ul class="pic_list">
+			<li><img src="img/pic/1.jpg"></li>
+			<li><img src="img/pic/1.jpg"></li>
+			<li><img src="img/pic/1.jpg"></li>
+			<li><img src="img/pic/1.jpg"></li>
+			<li><img src="img/pic/1.jpg"></li>
+			<li><img src="img/pic/1.jpg"></li>
+			<li><img src="img/pic/1.jpg"></li>
+		</ul>
+		<div class="app_download">
+			<p><span class="glyphicon glyphicon-circle-arrow-down"></span>APP下载高清图</p>
+			<a href="#" id="toDown" class="toDown">立即下载</a>
+			<a href="javascript:;" class="a_close glyphicon glyphicon-remove" id="a_close"></a>
+		</div>
+		<a href="javascript:;" class="btn_collect">
+			<span class="glyphicon glyphicon-star-empty"></span>
+			<span class="num_c">9</span>
+		</a>
+	</section>
+</article>
+<!--照片详情-->
+<section class="view_photo hide" id="view_photo
+">
+	<header class="header">
+		<a href="javascript:;"><span class="glyphicon glyphicon-chevron-left"></span>返回</a>
+		<h1>照片详情</h1>
+	</header>
+	<div class="view_wrap page">
+		<div class="big_pic">
+			<img src="img/content/view_p.jpg">
+			<img src="img/content/watermark.png" class="watermark">
+		</div>
+		<div class="view_c">
+			<p class="data_photo">
+				<span class="p_address"><i class="glyphicon glyphicon-map-marker"></i>韩国•济州岛</span>
+				<span class="p_time">2016年10月27日</span>
+			</p>
+			<div class="panel_info">
+				<div class="user_pic">
+					<img src="img/content/graphic.png">
+					<div class="user_name">
+						<p>caerge</p>
+						<p>照片摄影者</p>
+					</div>
+				</div>
+				<p>大小<span>23.5M</span></p>
+				<a href="javascript:;" class="btn_collect">
+					<span class="glyphicon glyphicon-star-empty"></span>
+					<span class="num_c">9</span>
+				</a>
+			</div>
+		</div>
+		<nav class="view_ft">
+			<a href="#">¥ 0.5购买无水印高清图</a>
+			<a href="#">加入收藏夹</a>
+		</nav>
+	</div>
+</section>
+
+<!--寻找摄影师-->
+<section class="seek_cameraman hide" id="seek_cameraman">
+	<header  class="header">
+		<a href="javascript:;"><span class="glyphicon glyphicon-chevron-left"></span>返回</a>
+		<h1>寻找摄影师</h1>
+	</header>
+	<div class="page cameraman_list">
+
+		<div class="recommend_cmr">
+			<p class="cmr_class">
+				<span>摄影师推荐</span>
+				<a href="#" target="_self">更多</a>
+			</p>
+			<ul class="recommend_cmr_list">
+				<li>
+					<a href="#">
+						<img src="img/cameraman/1.jpg">
+						<p class="cmr_name">yuanwei</p>
+						<p class="cmr_address"><i class="glyphicon glyphicon-map-marker"></i>岳阳</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/cameraman/2.jpg">
+						<p class="cmr_name">yuanwei</p>
+						<p class="cmr_address"><i class="glyphicon glyphicon-map-marker"></i>岳阳</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/cameraman/3.jpg">
+						<p class="cmr_name">yuanwei</p>
+						<p class="cmr_address"><i class="glyphicon glyphicon-map-marker"></i>岳阳</p>
+					</a>
+				</li>
+			</ul>
+			<p id="camereman_btn" class="list_btn">
+				<span class="active"></span>
+				<span></span>
+				<span></span>
+			</p>
+		</div>
+
+		<p class="user_address"><i class="glyphicon glyphicon-map-marker"></i><span>当前位置: </span><span class="place">云南•大理</span><a href="#" class="glyphicon glyphicon-refresh"></a></p>
+
+		<div class="neighbor_cmr">
+			<p class="cmr_class">
+				<span>摄影师推荐</span>
+				<a href="#">更多</a>
+			</p>
+			<ul class="neighbor_cmr_list">
+				<li>
+					<a href="#">
+						<img src="img/cameraman/02.jpg">
+						<p class="cmr_name">yuanwei</p>
+						<p class="cmr_address"><i class="glyphicon glyphicon-map-marker"></i>100米内</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<!--全部摄影师-->
+<section class="all_cameraman hi-de" id="all_cameraman">
+	<header  class="header">
+		<a href="javascript:;"><span class="glyphicon glyphicon-chevron-left"></span>返回</a>
+		<h1>全部摄影师</h1>
+	</header>
+	<div class="page cmr_panel">
+
+		<div class="cmr_menu">
+			<a href="#basic" class="btn default" data-toggle="modal">位置</a>
+			<div class="modal fade" id="basic" tabindex="-1" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+							<h4 class="modal-title">Modal Title</h4>
+						</div>
+						<div class="modal-body">
+							 Modal body goes here
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn default" data-dismiss="modal">Close</button>
+							<button type="button" class="btn blue">Save changes</button>
+						</div>
+					</div>
+					<!-- /.modal-content
+				</div>
+				<!-- /.modal-dialog -->
+			</div>
+		</div>
+
+		<ul class="all_cmr_list">
+			<li>
+				<div class="cmr_info">
+					<img src="img/cameraman/01.jpg">
+					<div>
+						<p class="cmr_name">caerge</p>
+						<p class="cmr_grade">
+							<span class="glyphicon glyphicon-star active"></span>
+							<span class="glyphicon glyphicon-star active"></span>
+							<span class="glyphicon glyphicon-star"></span>
+							<span class="glyphicon glyphicon-star"></span>
+							<span class="glyphicon glyphicon-star"></span>
+						</p>
+						<span class="score">4.2</span>
+					</div>
+				</div>
+				<p class="cmr_address"><i class="glyphicon glyphicon-map-marker"></i>长沙</p>
+			</li>
+			<li>
+				<div class="cmr_info">
+					<img src="img/cameraman/01.jpg">
+					<div>
+						<p class="cmr_name">caerge</p>
+						<p class="cmr_grade">
+							<span class="glyphicon glyphicon-star active"></span>
+							<span class="glyphicon glyphicon-star active"></span>
+							<span class="glyphicon glyphicon-star"></span>
+							<span class="glyphicon glyphicon-star"></span>
+							<span class="glyphicon glyphicon-star"></span>
+						</p>
+						<span class="score">4.2</span>
+					</div>
+				</div>
+				<p class="cmr_address"><i class="glyphicon glyphicon-map-marker"></i>长沙</p>
+			</li>
+		</ul>
+		
+	</div>
+
+</section>
+</body>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/banner.js"></script>
+<script>
+	(function(){
+		var head_h = $('.header').height()
+		var oH = $(document).height()-head_h;
+		$('.page').css('height',oH)
+	})()
+</script>
+<script>
+	
+</script>
+</html>
